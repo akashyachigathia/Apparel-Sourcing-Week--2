@@ -196,8 +196,9 @@ html{
 }
 
 .advantage_content{
-    margin: 0 3rem;
-    padding-top: 13rem;
+    margin: 0rem 3rem;
+    padding-top: 10rem;
+   
 }
 
 .advantage_content h2{
@@ -337,6 +338,7 @@ html{
 }
 
 .new__section__two__cont p {
+    padding-top: 1.2REM;
     color: #fff;
     font-size: 1rem;
     line-height: 26px;
@@ -578,6 +580,7 @@ html{
     .advantage_img{
         margin-top: 3rem;
         max-width: 100%;
+        height: auto;
 
     }
 
@@ -602,12 +605,13 @@ html{
 
     }
 
-    .cusotmer_logo .logo_list ul {
+    .customer_logo .logo_list ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 0;
     }
 
     .top-row {
@@ -653,19 +657,60 @@ html{
     width: 100%; /* Make the button width match the form-content */
     }
         
-          .btn_1:hover {
-            color: #ffffff !important;
-            background-color: #1d1d1d !important;
-            border: 2px solid #131313 !important;
-            box-shadow: none !important;
-          }
+    .btn_1:hover {
+    color: #ffffff !important;
+    background-color: #1d1d1d !important;
+    border: 2px solid #131313 !important;
+    box-shadow: none !important;
+    }
         
-          .btn_1 {
-            margin-top: 1.3rem;
-            padding: 20px 0; /* Remove fixed padding for the button */
-            font-weight: 600 !important;
-            transition: all 0.3s;
-          }
+    .btn_1 {
+    margin-top: 1.3rem;
+    padding: 20px 0; /* Remove fixed padding for the button */
+    font-weight: 600 !important;
+    transition: all 0.3s;
+    }
+
+    .logo_list ul.vertical-list {
+        flex-direction: row; /* Align items horizontally */
+    }
+
+    .logo_list ul.vertical-list li {
+        margin-right: 10px; /* Add space between items */
+    }
+
+    #form_section {
+        background: linear-gradient(310deg, #8A7BFF 1.3%, #3A3089 99.68%);
+        padding: 3rem 0;
+    }
+
+    .meet_us h3{
+        text-align: center;
+    }
+
+    .meet_us p{
+        padding: 0;
+        text-align: center;
+    }
+
+    .meet_us .last_location{
+        text-align: center;
+
+    }
+
+    .meet_us .last_location{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .meet_us .form_lcoation {
+      
+        padding: 0 2rem;
+    }
+    
 
 
 
@@ -674,19 +719,22 @@ html{
 
 
 
-
-
-
+          
 }
 
 
 
+@media only screen and (min-width: 1030px) and (max-width: 1366px){
 
-
-
-@media (min-width: 1350px){
     .hero_section{
-        margin-top: 3rem;
+        margin-top: 6rem;
+    }
+
+    .new__section__two__cont{
+    background: linear-gradient(310deg, #8A7BFF 1.3%, #3A3089 99.68%);
+    width: 63%;
+    padding: 45px 107px;
+
     }
 
 }
