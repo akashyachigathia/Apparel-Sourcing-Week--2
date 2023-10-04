@@ -458,10 +458,6 @@ html{
     
 }
 
-
-
-
-
 .top-row {
     padding: 40px 30px;
     display: inline-block;
@@ -612,12 +608,77 @@ html{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .top-row {
+    padding: 30px 15px;
+    display: flex; /* Use flexbox to center the form horizontally and vertically */
+    flex-direction: column; /* Stack form elements vertically */
+    justify-content: center; /* Center vertically */
+    }
+
+    /* .form_inner {
+    text-align: center;
+    padding-bottom: 2rem;
+    } */
+    
+    .form_inner h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2a2a2a;
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
       }
 
-  
+    .form-control {
+    height: 40px;
+    max-width: 100%; /* Make sure the inputs don't exceed the container width */
+    width: 100%; /* Take up the entire available width */
+    margin: 0; /* Remove any default margin */
+    padding: 0.5rem; /* Add some padding to the inputs */
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+    }
+
+
+    .form-content{
+    width: 100%; /* Ensure it takes the full width of the container */
+    max-width: 330px; /* Adjust the maximum width as needed */
+    }
+
+    .btn-primary {
+    background-color: #ffffff !important;
+    border: 2px solid #131313 !important;
+    color: #101010 !important;
+    box-shadow: 4px 4px 0 #131313 !important;
+    width: 100%; /* Make the button width match the form-content */
+    }
+        
+          .btn_1:hover {
+            color: #ffffff !important;
+            background-color: #1d1d1d !important;
+            border: 2px solid #131313 !important;
+            box-shadow: none !important;
+          }
+        
+          .btn_1 {
+            margin-top: 1.3rem;
+            padding: 20px 0; /* Remove fixed padding for the button */
+            font-weight: 600 !important;
+            transition: all 0.3s;
+          }
+
+
+
+
+
+
+
+
+
 
 
 }
+
 
 
 
